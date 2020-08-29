@@ -37,12 +37,13 @@ async def DameAmorPls(ctx):
         vc = await channel.connect()
         vc.play(discord.FFmpegPCMAudio(executable="C:/ffmpeg/bin/ffmpeg.exe", source="Este.mp3"))
         vc.is_playing()
-        vc.pause()
-        vc.resume()
-        
+       
+
+
+    
 
 @bot.event
 async def on_ready():
     print('Funcionando')
 
-bot.run('NzQ4Njg5NDkyMDY3NDgzNzMx.X0hFbA.lvCYa9lcFHFcolB0lPtDVM-FyZM')
+bot.run('NzQ4Njg5NDkyMDY3NDgzNzMx.X0hFbA.vyKGHFakwn4xEMGhxOK3FP60H-c')
